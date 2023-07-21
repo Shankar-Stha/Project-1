@@ -1,0 +1,111 @@
+h3 {
+    color: greenyellow;
+    text-align: center;
+    font-size: 3rem;
+}
+
+p {
+    background-color: rgb(35, 222, 110);
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+h1::before{
+    content:"world";
+}
+h1{
+    text-align: center;
+    box-shadow: 1px 2px 3px 4px green;
+    text-shadow: 1px 2px 3px  red;
+    border-radius: 50%; width: 200px; height: 200px;
+
+
+}
+
+a:hover{
+    background-color:red;
+    font-size: 2rem;
+}
+
+/* msg lai tei rakhne */
+/* .position{
+    position: fixed;
+} */
+
+.para+small{background-color: red;
+color: #268ADF90;
+}
+.one~small{background-color: aqua;}
+input[type="email"]{color: rgb(123, 28, 212);}
+
+.linear{
+    background-image: linear-gradient(to right,red,green,yellow);
+    height: 200px;
+}
+.radial{
+    background-image: radial-gradient(red,green,yellow);
+    height: 200px;
+}
+.conic{
+    /* background-image: conic-gradient(red 0deg 90deg ,green 90deg 180deg,yellow 180deg 270deg, blueviolet 270deg 360deg) ; */
+    background-image: repeating-conic-gradient(red 10%, orange 20%);
+    height: 200px; width: 200px; border-radius: 50%;
+}
+.photo img{
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    object-fit: cover;
+}
+.title h2{
+    background-color: aqua; padding: 1rem;
+}
+/* bullet hataune */
+nav ul{
+    list-style-type: none;
+
+}
+/* underline hataune */
+/* display: inline-block; sabbai tira gap  */
+nav a{
+    text-decoration: none;
+    padding: 1rem;
+    display: inline-block;
+     
+}
+/* yautai line ma lakhne */
+/* inline ley left ra right */
+nav li{
+display: inline-block;
+}
+nav{
+    background-color: aqua;
+    position: sticky;top:0;
+}
+
+
+/* bullet hataune */
+nav ul{
+    list-style-type: none;
+}
+
+.parent{
+    height: 200px;
+    background-color: aqua;
+    position:relative;
+    /* margin: 0rem 3rem; */
+    margin: 0rem 3rem 0rem 3rem;
+
+
+}
+.child{
+height: 100px;
+width: 100px;
+background-color: bisque;
+position: absolute;
+right: 50%;
+top: 25%;
+left: 50%;
+}

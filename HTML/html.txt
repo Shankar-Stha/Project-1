@@ -1,0 +1,34 @@
+
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title> My web page </title>
+	</head>
+	<body>
+	<h1> This is First heading</h1>
+	<h2> This is First heading</h2>
+	<h3> This is First heading</h3>
+	<h4> This is First heading</h4>
+	<h5> This is First heading</h5>
+	<h6> This is First heading</h6>
+
+	<p> sbsdksdfwkefwqwef </p>
+
+
+
+	</body>
+</html> 
+
+
+webdev
+	assets
+		css
+			styl.css
+		js
+			min.js
+		img
+	index.html
+	about.html
+	contact.html
+
+
